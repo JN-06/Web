@@ -1,0 +1,96 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+.index {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    background-image: url("Background_Product.jpg");
+}
+
+/* Header Styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #555555; /* lighter dark gray */
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav_links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav_links li {
+    position: relative;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    display: block;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover Effect for Main Links */
+.nav_links li a:hover {
+    color: #C6A992;
+}
+
+/* Styled Anchor as Button (CTA) */
+.cta {
+    padding: 9px 25px;
+    color: black;
+    background-color: #D3D3D3; /* light gray */
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cta:hover {
+    background-color: #C6A992;
+}
+
+/* View Admin Table Styling */
+.view_admin table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.view_admin th, .view_admin td {
+    border: 1px solid #ccc; /* lighter border */
+    padding: 12px 15px;
+    text-align: center;
+}
+
+.view_admin th {
+    background-color: #555555; /* match header */
+    color: white;
+    font-weight: bold;
+}
+
+.view_admin tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.view_admin tr:hover {
+    background-color: #e0e0e0; /* lighter hover to match gray tone */
+}
