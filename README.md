@@ -1,1 +1,9 @@
 # Web
+
+1. Introduction
+The website is a group project created for Brew and Go Coffee, a local coffee brand based in Kuching that began in 2021 as a home-based shop and later expanded by opening its first stall at One Jaya in 2023. Recently, they launched another stall at Plaza Merdeka. They offer a variety of beverages, including coffee, non-coffee and hot beverages.
+To help the business grow and reach more customers, we initially developed a website using HTML and CSS. In this second phase, we enhanced the website using PHP to introduce dynamic features, such as admin functionalities and form handling. This back-end integration made the website more interactive and practical for real-world use.
+This report provides an overview of the website’s planning, design, and development process. I was primarily responsible for designing and building the Product and Join Us pages during the first phase. In Assignment 2, I contributed to form handling and database connectivity. Overall, the website is simple, accessible, and supports Brew and Go Coffee in expanding its digital presence and reaching a broader audience.
+3
+2. The Website
+Brew-Go-Coffee is a fully responsive, PHP-based website developed to support the online presence of a local coffee business. The site consists of 12 well-organized pages, including an index (homepage), four product category pages showcasing different beverage types, three activity pages highlighting promotions and events, a “Join Us” page for job applications, an enquiry page for customer feedback, and both login and registration pages for user access. The website features a clean, modern interface that ensures smooth navigation across desktops and mobile devices. A secure admin login allows the business owner or operator to access a dashboard, where they can view user registration data and job applicant name lists.
